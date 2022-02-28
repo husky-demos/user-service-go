@@ -1,0 +1,9 @@
+syntax = "proto3";
+package husky_demos.common.v1;
+option go_package = "github.com/husky-demos/common/v1";
+option java_package = "com.github.husky_demos.common.v1";
+
+message ErrorResult{
+  uint64 code = 1;
+  string message = 2;
+}
